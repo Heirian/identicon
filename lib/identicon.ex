@@ -12,7 +12,8 @@ defmodule Identicon do
       :world
 
   """
-  def hello do
-    :world
+  def main(input) do
+    input
+    |> hash_string
   end
 end
